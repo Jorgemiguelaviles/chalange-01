@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>decodificador e descodificador</title>
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<main>
+<header>
+  <p>codificador</p>
+  <ul>
+    <li>use apenas letras minusculas</li>
+    <li>não use acentos e nem caracteres especiais</li>
+  </ul>
+</header>
+
+
+<form>
+  <div>
+    <textarea placeholder="digite o seu texto" id="ta1" class="ta1"></textarea>
+    <input type="button" value="codificar" class="cod" id="cod">
+    <input type="button" value="decodificar" class="dec" id="dec"> 
+  </div>
+  
+<div class=inicio id="inicio">
+<img src="pergaminho.svg" class=pergaminho>
+<p class=textoi>esperando texto</p>
+
+    
+  </div>
+
+
+
+  
+  <div class=resultado id="resultado">
+    <textarea id="ta2" class="ta2" readonly=""> </textarea>
+    <input type="button" value="copiar" class="cop" id="cop">
+  </div>
+  
+</form>
+  
+<div class=erronchar id="erronchar">
+<img src="zero.svg" class=pergaminho>
+<p class=textonc>desculpe nenhum caracter encontrado</p>
+  
+</div>
+<div class=errotchar id="errotchar">
+<img src="pi.svg" class=pergaminho>
+<p class=textoec>caracter não reconhecido</p>
+</div>
+  
+
+</main>
+
+  
+<footer>
+<a href=https://github.com/Jorgemiguelaviles><img src=github.svg class=github></a>
+<a href=https://www.linkedin.com/feed/><img src=linkedin.svg class=linkedin></a>
+  
+</footer>
+   <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+  
+
+</html>

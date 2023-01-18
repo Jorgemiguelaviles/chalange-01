@@ -1,0 +1,157 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background:linear-gradient(to bottom, black,white);
+  }
+header{
+  height:200px;
+  width:100%;
+  background:linear-gradient(to top,#404040,#0B0B0B) ;
+  position:relative;
+  top:-200;
+  left:0;
+}
+p{font-size: 50px;
+ margin: 30px;
+ text-align: center;
+ color:white;}
+
+ul{text-align: center;
+  color:white;}
+
+main{height: 800px;
+    background:linear-gradient(to bottom, black,white);}
+
+.ta1{height:400px;
+        width:600px ;
+        margin:30px;
+        display:inline;
+        font-size: 2em;
+        resize:none;
+        border-color:transparent;
+        position:absolute;
+        top: 200px;
+        left: 20px;}
+.inicio{
+  height:550px;
+  width:710px;
+  position:absolute;
+  top: 200px;
+  left: 680px;
+  display:inline;
+}
+
+.pergaminho{height:350px;
+  width:710px;
+  z-index: -10;}
+.textoi{color:white;}
+
+.resultado{
+  height:550px;
+  width:710px;
+  position:absolute;
+  top: 200px;
+  left: 680px;
+  display:none;
+}
+
+.erronchar{
+  height:550px;
+  width:710px;
+  position:absolute;
+  top: 200px;
+  left: 680px;
+  display:none;
+}
+
+.errotchar{
+  height:550px;
+  width:710px;
+  position:absolute;
+  top: 200px;
+  left: 680px;
+  display:none;
+}
+
+.ta2{height:400px;
+        width:600px ;
+        margin:30px;
+        display:inline;
+        font-size: 2em;
+        resize:none;
+        border-color:transparent;
+        position:absolute;
+        top: 0px;
+        left: 20px;
+         overflow:hidden;
+        }
+
+.cod{display:inline;
+       height: 50px;
+       width:100px;
+       font-size:1.15em;
+       text-align: center;
+       position:absolute;
+       top:90%;
+       left:140px;
+       
+    }
+
+.cod:hover{
+  opacity: 90%;
+  
+}
+
+.dec{display:inline;
+       height: 50px;
+       width:100px;
+       font-size:1.15em;
+       text-align: center;
+       position:absolute;
+       top:90%;
+       left:380px;
+    }
+
+.dec:hover{
+  opacity: 90%;
+  
+}
+
+
+.cop{display:inline;
+       height: 50px;
+       width:100px;
+       font-size:1.15em;
+       text-align: center;
+       position:absolute;
+       top:480px;
+       left:270px;}
+
+
+.cop:hover{
+  opacity: 90%;
+  
+}
+
+
+footer{
+  background:linear-gradient(to top,white,#EEEEEE););
+  position:absolute;
+  left:0;
+  top:780px;
+  height: 200px;
+  width: 100%;
+}
+
+img{height:100px;
+   width:100px;}
+
+.github{
+  position:absolute;
+  left:40%
+}
+.linkedin{
+  position:absolute;
+  left:50%
+  
+}
